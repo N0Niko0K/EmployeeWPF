@@ -1,0 +1,42 @@
+﻿<Employees>
+	<Employee>
+		<FullName>John Doe</FullName>
+		<Gender>Male</Gender>
+		<BirthDate>1990-01-15</BirthDate>
+		<Passport>AB1234567</Passport>
+		<Address>123 Main St</Address>
+		<Position>Developer</Position>
+		<Education>Bachelor's</Education>
+		<HireDate>2020-05-20</HireDate>
+		<FireDate></FireDate>
+	</Employee>
+	<Employee>
+		<FullName>Jane Smith</FullName>
+		<Gender>Female</Gender>
+		<BirthDate>1985-11-03</BirthDate>
+		<Passport>CD7890123</Passport>
+		<Address>456 Oak Ave</Address>
+		<Position>Manager</Position>
+		<Education>Master's</Education>
+		<HireDate>2018-02-10</HireDate>
+		<FireDate>2023-12-31</FireDate>
+	</Employee>
+	<Employee>
+		<FullName>Peter Jones</FullName>
+		<!-- Example of a missing field -->
+		<Gender>Male</Gender>
+		<BirthDate>1978-07-22</BirthDate>
+		<Passport>EF3456789</Passport>
+		<Address>789 Pine Ln</Address>
+		<Position>Analyst</Position>
+		<Education>Associate's</Education>
+		<HireDate>2015-09-01</HireDate>
+		<FireDate>Invalid Date</FireDate>
+		<!-- Example of an invalid date -->
+	</Employee>
+	<Employee>
+		<FullName>Invalid Data</FullName>
+		<Gender>Other</Gender>
+	</Employee>
+
+</Employees>
